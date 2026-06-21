@@ -1,0 +1,185 @@
+{
+  "indicators": [
+    {
+      "id": "ind_001",
+      "type": "domain",
+      "value": "example-bank-verify.com",
+      "riskscore": 92,
+      "category": "KYC Scam",
+      "status": "Malicious",
+      "details": {
+        "domainage": "10 days",
+        "registrar": "NameCheap Inc.",
+        "hostingprovider": "Hostinger International Ltd.",
+        "ssl": "Let's Encrypt (Expires in 80 days)",
+        "ipAddress": "185.224.138.42",
+        "incidents": 14,
+        "reportedAt": "2026-06-10T08:32:00Z"
+      }
+    },
+    {
+      "id": "ind_002",
+      "type": "domain",
+      "value": "secure-login-netpoint.net",
+      "riskscore": 85,
+      "category": "Phishing",
+      "status": "Malicious",
+      "details": {
+        "domainage": "4 days",
+        "registrar": "GoDaddy LLC",
+        "hostingprovider": "DigitalOcean LLC",
+        "ssl": "None (HTTP only)",
+        "ipAddress": "104.24.12.89",
+        "incidents": 8,
+        "reportedAt": "2026-06-12T14:15:00Z"
+      }
+    },
+    {
+      "id": "ind_003",
+      "type": "ip",
+      "value": "198.51.100.72",
+      "riskscore": 89,
+      "category": "Malware Distribution",
+      "status": "Malicious",
+      "details": {
+        "hostingprovider": "Sharktech Hosting",
+        "country": "Russia",
+        "asn": "AS32456",
+        "openports": [
+          80,
+          443,
+          8080
+        ],
+        "incidents": 23,
+        "reportedAt": "2026-06-14T21:40:00Z"
+      }
+    },
+    {
+      "id": "ind_004",
+      "type": "ip",
+      "value": "203.0.113.195",
+      "riskscore": 75,
+      "category": "Botnet CNC",
+      "status": "Suspicious",
+      "details": {
+        "hostingprovider": "Linode LLC",
+        "country": "Seychelles",
+        "asn": "AS63949",
+        "openports": [
+          22,
+          80,
+          443
+        ],
+        "incidents": 5,
+        "reportedAt": "2026-06-15T02:10:00Z"
+      }
+    },
+    {
+      "id": "ind_005",
+      "type": "url",
+      "value": "http://refund-tax-support.in/login/pay.html",
+      "riskscore": 98,
+      "category": "Tax Refund Scam",
+      "status": "Malicious",
+      "details": {
+        "domainage": "2 days",
+        "hostingprovider": "Verio Hosting",
+        "ssl": "None (Insecure HTTP)",
+        "redirections": 2,
+        "incidents": 32,
+        "reportedAt": "2026-06-15T09:05:00Z"
+      }
+    },
+    {
+      "id": "ind_006",
+      "type": "upi",
+      "value": "fastcash-refund@ybl",
+      "riskscore": 95,
+      "category": "UPI Fraud",
+      "status": "Malicious",
+      "details": {
+        "verifiedName": "Ramesh Kumar (Unverified Profile)",
+        "associatedBank": "YES Bank",
+        "incidents": 47,
+        "scamPattern": "Lottery prize processing fee request",
+        "reportedAt": "2026-06-15T11:12:00Z"
+      }
+    },
+    {
+      "id": "ind_007",
+      "type": "upi",
+      "value": "govt-subsidy-online@oksbi",
+      "riskscore": 90,
+      "category": "Impersonation",
+      "status": "Malicious",
+      "details": {
+        "verifiedName": "State Benefit Portal (Impersonated)",
+        "associatedBank": "State Bank of India",
+        "incidents": 19,
+        "scamPattern": "Gas subsidy registration fee",
+        "reportedAt": "2026-06-14T17:45:00Z"
+      }
+    }
+  ],
+  "feeds": [
+    {
+      "id": "feed_sub_1782064948834",
+      "source": "User Submission Portal",
+      "type": "domain",
+      "value": "spamdomain.xyz",
+      "category": "KYC Scam",
+      "timestamp": "2026-06-21T18:02:28.835Z"
+    },
+    {
+      "id": "feed_001",
+      "source": "CERT-In Advisory",
+      "type": "domain",
+      "value": "covid-booster-support.org",
+      "category": "Phishing Campaign",
+      "timestamp": "2026-06-15T16:45:00Z"
+    },
+    {
+      "id": "feed_002",
+      "source": "Public Phishing Feed",
+      "type": "url",
+      "value": "https://verification-update-portal.net/signin",
+      "category": "Credential Harvesting",
+      "timestamp": "2026-06-15T16:32:00Z"
+    },
+    {
+      "id": "feed_003",
+      "source": "Open Threat Intel",
+      "type": "ip",
+      "value": "185.190.140.11",
+      "category": "SSH Brute Forcer",
+      "timestamp": "2026-06-15T16:15:00Z"
+    },
+    {
+      "id": "feed_004",
+      "source": "Scam Reports",
+      "type": "upi",
+      "value": "paytm-kyc-agent@paytm",
+      "category": "KYC Wallet Scam",
+      "timestamp": "2026-06-15T15:58:00Z"
+    },
+    {
+      "id": "feed_005",
+      "source": "CERT-In Advisory",
+      "type": "ip",
+      "value": "45.142.195.8",
+      "category": "Ransomware Distribution CNC",
+      "timestamp": "2026-06-15T15:10:00Z"
+    }
+  ],
+  "submissions": [
+    {
+      "id": "sub_1782064948833",
+      "type": "domain",
+      "value": "spamdomain.xyz",
+      "category": "KYC Scam",
+      "comments": "",
+      "riskscore": 80,
+      "submittedAt": "2026-06-21T18:02:28.833Z"
+    }
+  ]
+}
