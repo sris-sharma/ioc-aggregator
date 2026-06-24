@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, 'public')));
+app.use(express.static(__dirname));
 
 // Path to database
 const dbPath = path.join(__dirname, 'db.json');
@@ -416,6 +416,10 @@ app.post('/api/submit', (req, res) => {
     message: "Thank you. Indicator submitted successfully to IOC Aggregation database.",
     submission: newSubmission
   });
+});
+
+app.get('/',(req,res)=>{
+  res.sendFile(path.join(_dirname,'index.html'));
 });
 
 app.listen(PORT, () => {
