@@ -2,9 +2,9 @@
   "name": "ioc-aggregator",
   "version": "1.0.0",
   "description": "An end-to-end fully developed IOC Aggregator Platform",
-  "main": "app.js",
+  "main": "server.js",
   "scripts": {
-    "start": "node app.js"
+    "start": "node server.js"
   },
   "keywords": [
     "ioc",
